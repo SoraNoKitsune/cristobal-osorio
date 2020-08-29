@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi portafolio | Full Stack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Css de Bootstrap 4.5-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!--Font Awesome 5.6.3-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-
+    UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!--Mis estilos-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>           
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+              <div class="container">
+                 <p class="navbar-brand text-danger logo-nav py-auto">Alicia Smith</p>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ml-auto">
+                          <li class="nav-item">
+                              <a class="nav-link" href="#about-me">Acerca de mi <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#works">Trabajos</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#contact">Contacto</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+      <header id="cabecera" class="hero text-light text-center">
+        <div class="container">
+            <h1 class="display-1 logo-nav font-weight-bold my-4 text-danger">"Soy Alicia"</h1>
+            <h2 class="display-5 font-weight-bold my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+            <a href="#works" class="btn btn-outline-danger btn-lg">Trabajos</a>
+            <a href="#contact" class="btn btn-danger btn-lg">Contacto</a>
+        </div>
+    </header> 
+
+    <!--Sección Acerca de mi-->
+    <section id="about-me" class="container text-center my-5">
+      <h2 class="display-3 font-weight-bold my-4">Acerca de mi</h2>
+      <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque tempora tempore,
+          quibusdam necessitatibus error libero temporibus numquam nesciunt voluptates ratione hic aliquid porro
+          molestiae iste rerum eius quo iusto.</p>
+      <div class="row">
+          <div class="col-md-4">
+              <i class="fas fa-camera fa-3x my-3"></i>
+              <h3 class="my-3">Diseñadora Gráfica</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor quaerat, atque ducimus natus ad sed
+                  explicabo, tenetur magni, provident accusantium iusto praesentium culpa nisi magnam voluptatum
+                  aspernatur nobis consequuntur vero.</p>
+          </div>
+          <div class="col-md-4">
+                <i class="fas fa-camera fa-3x my-3"></i>
+                <h3 class="my-3">Full Stack</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor quaerat, atque ducimus natus ad sed
+                    explicabo, tenetur magni, provident accusantium iusto praesentium culpa nisi magnam voluptatum
+                    aspernatur nobis consequuntur vero.</p>
+            </div>
+
+            <div class="col-md-4">
+                <i class="fas fa-camera fa-3x my-3"></i>
+                <h3 class="my-3">Fotografa</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor quaerat, atque ducimus natus ad sed
+                    explicabo, tenetur magni, provident accusantium iusto praesentium culpa nisi magnam voluptatum
+                    aspernatur nobis consequuntur vero.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Sección Mis trabajos-->
+
+    <section id="works" class="container-fluid my-5 p-5 bg-danger">
+      <h2 class="display-3 text-white text-center font-weight-bold my-4">Mis trabajos</h2>
+      <div class="card-deck">
+          <div class="card">
+              <img src="assets/img/meet_coffee.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h4 class="card-title font-weight-bold">Meet&Coffee</h4>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.</p>
+                  <a href="#" class="btn btn-outline-danger mr-4" data-toggle="modal" data-target="#coffee">Ver más</a>
+              </div>
+          </div>
+          <div class="card">
+              <img src="assets/img/suricata.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h4 class="card-title font-weight-bold">Suricata</h4>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                  </p>
+                  <a href="#" class="btn btn-outline-danger mr-4" data-toggle="modal" data-target="#suricata">Ver más</a>
+              </div>
+          </div>
+          <div class="card">
+              <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h4 class="card-title font-weight-bold">Ricomida</h4>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This card has even longer content than the first to show that equal height
+                      action.</p>
+                  <a href="#" class="btn btn-outline-danger mr-4" data-toggle="modal" data-target="#ricomida">Ver más</a>
+              </div>
+          </div>
+          <div class="card">
+            <img src="assets/img/cuppon.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4 class="card-title font-weight-bold">Cuppon</h4>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This card has even longer content than the first to show that equal height
+                    action.</p>
+                <a href="#" class="btn btn-outline-danger mr-4" data-toggle="modal" data-target="#cuppon">Ver más</a>
+            </div>
+        </div>
+      </div>
+  </section>
+  <!--Ventana modal de meet&coffee-->
+
+  <div class="modal fade" id="coffee" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title font-weight-bold" id="exampleModalLabel">Proyecto Meet&Coffee</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <img src="assets/img/meet_coffee.png" class="img-fluid my-3" alt="Proyecto meet&coffee">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, ducimus recusandae vero maxime
+                  tenetur doloribus vitae itaque numquam dolore praesentium illo, excepturi voluptas corrupti
+                  voluptate perferendis repellendus explicabo suscipit laborum!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque tenetur pariatur alias, odit
+                  cumque iste quod magni fugiat! Voluptatum ad, quaerat minima necessitatibus soluta cupiditate
+                  fugiat rem itaque doloremque! Accusantium.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ratione! Distinctio ut delectus
+                  ea nemo amet tenetur nam dolorum? Vitae impedit in quaerat temporibus provident officia deleniti
+                  dolorum voluptas consequuntur.</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!--Ventana modal suricata-->
+
+<div class="modal fade" id="suricata" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title font-weight-bold" id="exampleModalLabel">Proyecto Restaurante Suricata</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <img src="assets/img/suricata.png" class="img-fluid my-3" alt="">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, ducimus recusandae vero maxime
+                tenetur doloribus vitae itaque numquam dolore praesentium illo, excepturi voluptas corrupti
+                voluptate perferendis repellendus explicabo suscipit laborum!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque tenetur pariatur alias, odit
+                cumque iste quod magni fugiat! Voluptatum ad, quaerat minima necessitatibus soluta cupiditate
+                fugiat rem itaque doloremque! Accusantium.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ratione! Distinctio ut delectus
+                ea nemo amet tenetur nam dolorum? Vitae impedit in quaerat temporibus provident officia deleniti
+                dolorum voluptas consequuntur.</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+        </div>
+    </div>
+</div>
+</div>
+<!--Ventana modal ricomida-->
+
+<div class="modal fade" id="ricomida" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title font-weight-bold" id="exampleModalLabel">Proyecto Restaurante Ricomida</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <img src="assets/img/ricomida.png" class="img-fluid my-3" alt="">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, ducimus recusandae vero maxime
+                tenetur doloribus vitae itaque numquam dolore praesentium illo, excepturi voluptas corrupti
+                voluptate perferendis repellendus explicabo suscipit laborum!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque tenetur pariatur alias, odit
+                cumque iste quod magni fugiat! Voluptatum ad, quaerat minima necessitatibus soluta cupiditate
+                fugiat rem itaque doloremque! Accusantium.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ratione! Distinctio ut delectus
+                ea nemo amet tenetur nam dolorum? Vitae impedit in quaerat temporibus provident officia deleniti
+                dolorum voluptas consequuntur.</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+        </div>
+    </div>
+</div>
+</div>
+<!--Ventana modal cuppon-->
+
+<div class="modal fade" id="cuppon" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title font-weight-bold" id="exampleModalLabel">Proyecto Cuppon</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <img src="assets/img/cuppon.png" class="img-fluid my-3" alt="">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, ducimus recusandae vero maxime
+                tenetur doloribus vitae itaque numquam dolore praesentium illo, excepturi voluptas corrupti
+                voluptate perferendis repellendus explicabo suscipit laborum!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque tenetur pariatur alias, odit
+                cumque iste quod magni fugiat! Voluptatum ad, quaerat minima necessitatibus soluta cupiditate
+                fugiat rem itaque doloremque! Accusantium.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ratione! Distinctio ut delectus
+                ea nemo amet tenetur nam dolorum? Vitae impedit in quaerat temporibus provident officia deleniti
+                dolorum voluptas consequuntur.</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+        </div>
+    </div>
+</div>
+</div>
+
+<!--Sección contacto-->
+    <section id="contact" class="container my-5">
+        <h2 class="display-3 text-center font-weight-bold my-4">Contáctame</h2>
+        <p class="text-center my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, perferendis
+            voluptate! Dolorum nesciunt reiciendis excepturi fugit eligendi omnis ut magnam nobis reprehenderit. Cum
+            laboriosam itaque magnam nulla eligendi minima doloribus!</p>
+            <div class="typeform-widget" data-url="https://betsisalas12.typeform.com/to/oRNSAm" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=oRNSAm&utm_source=typeform.com-01E8AQHR4P3VNKTKYMPVC7QMFD-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+    </section>
+
+    <footer class="bg-dark  text-center text-light p-3">
+        <a href="https://github.com" target="_blank"><i class="fab fa-github-square fa-3x mx-2"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square fa-3x mx-2"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-3x mx-2"></i></a>
+        <p>Alicia Smith 2020. Todos los derechos reservados</p>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!--Mi script-->
+    <script src="assets/js/scripts.js"> </script>
+  </body>
+</html>

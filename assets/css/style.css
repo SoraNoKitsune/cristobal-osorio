@@ -1,0 +1,20 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+ .logo-nav {
+    font-family: 'Lobster', cursive;
+    font-weight: 700;
+    
+}
+header{
+    background-image: url('../img/bg_hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding-top: 400px;
+    padding-bottom:200px ;
+}
+
+footer, a{
+    color:white;
+}
